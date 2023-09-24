@@ -30,9 +30,3 @@ if result != -1:
 else:
     print(f" '-1' Искомый элемент {target} не найден в массиве.")
 
-
-
-result = []
-while (len(arr) > 0):
-    result.append(min(arr))
-    arr.remove(min(arr))
